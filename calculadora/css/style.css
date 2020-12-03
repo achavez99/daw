@@ -1,105 +1,47 @@
-.col-md-9 {
-    width: 30%;
-    height: 70px;
+* {
+    padding: 0%;
 }
 
-body {
-    background-color: rgb(104, 219, 228);
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+.calculadora {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(19, 18, 17, 0.26);
+    width: 350px;
+    height: 420px;
+    border-radius: 25px;
+    margin-top: 25px;
 }
 
-.container-fluid {
-    margin-top: 5px;
-}
-
-.col {
-    text-align: center;
-    font-size: 20px;
-    margin-left: 3px;
-    margin-bottom: 3px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    background-color: rgb(229, 162, 231);
-    cursor: default;
-    border-style: inset;
-}
-
-.col:hover {
-    background-color: rgb(235, 206, 235);
-}
-
-.col:active {
-    background-color: rgb(192, 192, 192);
-}
-
-.funct-1,
-.funct-2 {
-    text-align: center;
-    font-size: 13px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-left: 3px;
-    margin-bottom: 3px;
-    font-weight: 500;
-    cursor: default;
-}
-
-.funct-1:hover,
-.funct-2:hover {
-    background-color: rgb(216, 216, 216);
-}
-
-.funct-1:active,
-.funct-2:active {
-    background-color: rgb(192, 192, 192);
-}
-
-.numeros {
-    background-color: rgb(194, 107, 235);
-    font-weight: 500;
-    font-size: 30px;
-    padding-top: 23px;
-    padding-bottom: 15px;
-    border-style: inset;
-}
-
-.resultado,
-.resultado2 {
-    text-align: right;
-}
-
-.resultado>h1 {
-    font-size: 70px;
-}
-
-.resultado2>p {
-    font-size: 18px;
-    margin-bottom: -4px;
-}
-
-.cabecalio>div>h3 {
-    font-weight: 400;
+.calculadora div button {
+    width: 60px;
+    height: 60px;
     font-size: 25px;
-    margin: 5px;
+    margin-bottom: 6px;
+    margin-left: 5px;
+    border-radius: 15px;
 }
 
-.cabecalio>div>h4 {
-    font-weight: 500;
-    font-size: 18px;
-    margin: 5px;
+.calculadora .pantallas {
+    display: block;
+    width: auto;
+    height: 100px;
+    font-size: 40px;
+    background-color: rgb(56, 57, 58);
+    border-radius: 15px;
+    line-height: 100px;
 }
 
-#div-historico,
-#div-memoria {
-    text-align: right;
+.calculadora .teclas {
+    margin-top: 8px;
+    width: auto;
+    height: auto;
 }
 
-#his {
-    border-bottom: 3px solid rgb(85, 67, 10);
-    text-align: center;
+.op {
+    margin-top: -85%;
+    margin-left: 69%;
+}
+
+.op button {
+    display: block;
 }

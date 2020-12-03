@@ -5,7 +5,7 @@
 .calculadora {
     margin: 0 auto;
     padding: 20px;
-    background-color: rgba(19, 18, 17, 0.26);
+    background-color: rgba(134, 56, 223, 0.658);
     width: 350px;
     height: 420px;
     border-radius: 25px;
@@ -13,6 +13,7 @@
 }
 
 .calculadora div button {
+    background-color: rgb(57, 23, 88);
     width: 60px;
     height: 60px;
     font-size: 25px;
@@ -26,7 +27,7 @@
     width: auto;
     height: 100px;
     font-size: 40px;
-    background-color: rgb(56, 57, 58);
+    background-color: rgb(169, 121, 233);
     border-radius: 15px;
     line-height: 100px;
 }

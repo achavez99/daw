@@ -1,3 +1,8 @@
+.col-md-9 {
+    width: 30%;
+    height: 70px;
+}
+
 body {
     background-color: rgb(104, 219, 228);
     -webkit-touch-callout: none;
@@ -19,13 +24,13 @@ body {
     margin-bottom: 3px;
     padding-top: 30px;
     padding-bottom: 30px;
-    background-color: rgb(48, 45, 45);
+    background-color: rgb(229, 162, 231);
     cursor: default;
     border-style: inset;
 }
 
 .col:hover {
-    background-color: rgb(117, 113, 117);
+    background-color: rgb(235, 206, 235);
 }
 
 .col:active {

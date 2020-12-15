@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    font-family: 'Open sans', sans-serif;
+}
+
+h2 {
+    color: red;
+}
+
+.contenedor {
+    width: 94%;
+    margin: auto;
+}
+
+header {
+    padding: 20px 0;
+}
+
+header .contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+header nav a {
+    color: grey;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+header nav a:hover,
+header nav a.activo {
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+peli-principal

@@ -46,10 +46,16 @@ header nav a.activo {
     background: url(../img/peliprincipal.jpg);
     margin-left: 100px;
     margin-right: 100px;
-    padding: 350px;
+    padding: 280px;
     height: 0px;
-    background-position: center top;
+    background-position: center center;
     background-size: cover;
     display: flex;
     align-items: end;
+}
+
+.peli-principal,
+.titulo {
+    padding-left: 10px;
+    color: rgba(248, 237, 230, 0.938);
 }

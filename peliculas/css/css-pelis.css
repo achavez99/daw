@@ -9,12 +9,8 @@ body {
     font-family: 'Open sans', sans-serif;
 }
 
-h2 {
-    color: red;
-}
-
 .contenedor {
-    width: 94%;
+    width: 90%;
     margin: auto;
 }
 
@@ -32,6 +28,7 @@ header .logo {
     font-family: 'Bebas Neue', cursive;
     font-weight: normal;
     font-size: 30px;
+    color: red;
 }
 
 header nav a {
@@ -45,8 +42,14 @@ header nav a.activo {
     color: white;
 }
 
-h1 {
-    color: white;
+.peli-principal {
+    background: url(../img/peliprincipal.jpg);
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 350px;
+    height: 0px;
+    background-position: center top;
+    background-size: cover;
+    display: flex;
+    align-items: end;
 }
-
-peli-principal
